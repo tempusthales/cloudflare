@@ -78,7 +78,7 @@ ingress:
    - hostname: dashboard.yourdomainname.com
      service: https://your.ip.goes.here:port#
      originRequest:
-        noTLSVerified: true
+        noTLSVerify: true
 
    - service: http_status:404
 ```
