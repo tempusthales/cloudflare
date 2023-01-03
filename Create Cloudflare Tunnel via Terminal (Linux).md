@@ -1,4 +1,4 @@
-# Create Cloudflare Tunnel via Terminal (Linux)
+# Cloudflare Tunnels via CLI
 
 If at any point in this walktrhough you get lost you can follow the Cloudflare Guide here: [https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/tunnel-guide/local/](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/tunnel-guide/local/)
 
