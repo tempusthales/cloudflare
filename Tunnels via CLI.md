@@ -56,7 +56,7 @@ If you are connecting an **application**
 
 If you are connecting a network add the IP/CIDR you would like to be routed through the tunnel:
 
-`cloudflared tunnel route ip adfd <IP/CIDR> <UUID or NAME>`
+`cloudflared tunnel route ip add <IP/CIDR> <UUID or NAME>`
 
 You can confirm that the route has been successfully established by running:
 
