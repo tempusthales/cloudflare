@@ -55,6 +55,7 @@ If you are connecting an **application**
 `cloudflared tunnel route dns <UUID or NAME> <hostname>`
 
 If you are connecting a network add the IP/CIDR you would like to be routed through the tunnel:
+(CIDR: 192.168.0.9/24 = 192.168.0.0 to 192.168.0.255 for example)
 
 `cloudflared tunnel route ip add <IP/CIDR> <UUID or NAME>`
 
