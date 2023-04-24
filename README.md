@@ -50,15 +50,19 @@ credentials-file: /root/.cloudflared/a7e850d3-8960-4718-bbf2-8c0f09556a16.json
 
 Now assign a CNAME record that points traffic to your tunnel subdomain
 
-If you are connecting an **application**
+If you are connecting an **application** (like proxmox or pterodactyl)
 
 `cloudflared tunnel route dns <UUID or NAME> <hostname>`
 
+e.g: `cloudflared tunnel route dns panel.yourdomain.com`
+
 If you are connecting a network add the IP/CIDR you would like to be routed through the tunnel:
+
+e.g: (CIDR: 192.168.0.9/24 = 192.168.0.0 to 192.168.0.255)
 
 `cloudflared tunnel route ip add <IP/CIDR> <UUID or NAME>`
 
-e.g: (CIDR: 192.168.0.9/24 = 192.168.0.0 to 192.168.0.255)
+e.g: `cloudflared tunnel route ip add 192.168.1.8/24 <UUID or NAME>`
 
 You can confirm that the route has been successfully established by running:
 
